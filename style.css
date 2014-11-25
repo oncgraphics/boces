@@ -90,13 +90,13 @@ background-color: #b2bccc;
 color: #000;
 }
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
-background-color: #6F7D94;
+background-color: #a6b1c4 ;
 color: #FFF;
 }
 /* ~~ The footer ~~ */
 .footer {
 padding: 10px 0;
-background-color: #6F7D94;
+background-color: #a6b1c4 ;
 position: relative;/* this gives IE6 hasLayout to properly clear */
 clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
 }
