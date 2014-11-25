@@ -9,7 +9,7 @@
 
 body {
 font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-background-color: #b8bcc3;
+background-color: #4E5869;
 margin: 0;
 padding: 0;
 color: #000;
@@ -23,18 +23,18 @@ h1, h2, h3, h4, h5, h6, p {
 margin-top: 0; /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
 padding-right: 15px;
 padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
-background-color: #b8bcc3;
+background-color: #4E5869;
 }
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
 border: none;
 }
 /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
 a:link {
-color:#414958;
+color:#4E5869;
 text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
 a:visited {
-color: #b8bcc3;
+color: #4E5869;
 text-decoration: underline;
 }
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
@@ -45,12 +45,12 @@ text-decoration: none;
 width: 80%;
 max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
 min-width: 780px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
-background-color: #b8bcc3;
+background-color: #4E5869;
 margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
 }
 /* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
 .header {
-background-color: #b8bcc3;
+background-color: #4E5869;
 }
 /* ~~ These are the columns for the layout. ~~
 1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
@@ -86,7 +86,7 @@ ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your li
 padding: 5px 5px 5px 15px;
 display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
 text-decoration: none;
-background-color: #8090AB;
+background-color: #b2bccc;
 color: #000;
 }
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
