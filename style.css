@@ -96,7 +96,7 @@ color: #FFF;
 /* ~~ The footer ~~ */
 .footer {
 padding: 10px 0;
-background-color: #e5e8ee;
+background-color: #ffffff;
 position: relative;/* this gives IE6 hasLayout to properly clear */
 clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
 }
