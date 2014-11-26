@@ -74,24 +74,27 @@ float: left;
 padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
 }
 /* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
-ul.nav {
-list-style: none; /* this removes the list marker */
-border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
-margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
 }
-ul.nav li {
-border-bottom: 1px solid #666; /* this creates the button separation */
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
 }
-ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
-padding: 5px 5px 5px 15px;
-display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
-text-decoration: none;
-background-color: #b2bccc;
-color: #000;
+
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
 }
-ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
-background-color: #e5e8ee ;
-color: #FFF;
+
+ul#menu li a:hover {
+    color: white;
+    background-color: black;
 }
 /* ~~ The footer ~~ */
 .footer {
