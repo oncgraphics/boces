@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
 <meta charset="UTF-8" />
-<title>BOCES ONC Graphics</title>
+<title>BOCES ONC Graphics -Our Products</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel='stylesheet' id='style-css' href='http://oncgraphics.com/style.css' type='text/css' media='all' />
 </head>
+
 <body>
 <div id="result"></div>
 <div class="container">
@@ -13,4 +15,4 @@
 <center></center><img src="images/VisComLogo.jpg" alt="VISComm" width="296" height="255">
 <img src="" alt="" width="296" height="255">
 <a href="http://www.oncboces.org/NorthernCatskills.cfm?subpage=6967" target="_blank">
-<img src="images/logo.png" alt="ONC" width="296" height="255" href="http://www.oncboces.org/NorthernCatskills.cfm?subpage=6967"></
+<img src="images/logo.png" alt="ONC" width="296" height="255" href="http://www.oncboces.org/NorthernCatskills.cfm?subpage=6967">
