@@ -6,7 +6,32 @@
  * Author:      ONC
  * License:     GNU General Public License v2.0 or later
  */
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
 
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
 body {
 font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
 background-color: #b2bccc;
